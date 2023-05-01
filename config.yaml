@@ -31,12 +31,10 @@ params:
     # Main hero title
     title: Know your software supply chain
     # Hero subtitle (optional)
-    subtitle: hero-some-subtitle-text
+    subtitle: Use GUAC to get organized and actionable insights into your software supply chain security position. 
     # Button text
-    button1text: Learn more
-    button1link: "#about-guac"
-    button2text: Github
-    button2link: "https://github.com/guacsec/guac"
+    button1text: Now in Beta!
+    button1link: "https://github.com/guacsec/guac"
 
     # Hero image (from static/images/___)
     #image: illustrations/worker.svg
@@ -112,42 +110,57 @@ params:
   #      url: /
   #    - text: App settings
   #      url: /
+  
+    sectionGithub:
+    title: The current problem with software supply chain security
+    subtitle: Software supply chain attacks are on the rise and unless you have enterprise-scale security and IT funding, it’s hard to know what your software is at risk for and how to protect it. Many tools are available to help you find Software Bills of Materials (SBOMs), signed attestations, and vulnerabilities, but there’s currently no way to combine and synthesize this information into a comprehensive and actionable view.
+    
+    sectionUniid:
+    title: Our vision
+    subtitle: GUAC (Graph for Understanding Artifact Composition), aims to bring disparate sources of software metadata (like SBOMs)  together into one tool to make it easier for organizations to understand their software security position and act at every point in the software development life cycle.
+  
+    sectionGithub:
+    title: GUAC Beta is now open!
+    subtitle: In Beta, you can run GUAC internally in your organization to take active steps to manage risk. Currently, you can query SLSA provenance, SBOMs, and OpenSSF Scorecards. In the future, GUAC aims to run as a public service where high-fidelity supply chain security metadata can be attained for every software ecosystem.
+    button1Text: Try GUAC out!
+    button1Link: hhttps://guac.sh/
+  
+  
   section1:
-    title: section1-text
-    subtitle: section1-subtitle  guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac
+    title: What does GUAC do?
     tiles:
-    - title: s1-title-1
+    - title: Establishes connections between your software catalog
       icon: mouse-globe
-      text:  guac guac guac guac  guac guac guac guac  guac guac guac guac  guac guac guac guac
-      url: https://github.com/guacsec/guac
-      buttonText: Find GUAC
-    - title: s1-title-2
+    - title: Unveils gaps in the software supply chain data using other data sources
       icon: laptop-cloud
-      text: Learn how to configure your existing organization to use GUAC
-      url: https://github.com/guacsec/guac
-      buttonText: Get GUAC
-    - title: s1-title-3
+    - title: Identifies threats in your supply chain and provides a path to remediation
       icon: plug-cloud
-      text: See what can GUAC GUAC 
-      url: https://github.com/guacsec/guac
-      buttonText: Eat GUAC
-
-
-
+     
   section2:
-    title: What is GUAC?
-    subtitle: section2-subtitle
+    title: How GUAC can help you
+    subtitle: These are just a few examples of insights that GUAC can provide.
     features:
-    - title: Feature1 text
-      text: Feature1-text guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac
-      # Icon (from /images/illustrations/icons/___.svg)
+    - title: Proactive
+      text: Find the most used critical components in a software supplay chaing ecosytem. 
+            Find weaknesses in overall security posture.
+            Prevent supply chain compromises before they happen.
+            Find exposures to risky dependencies.
       icon: laptop-globe
-    - title: Feature2 title
-      text: Feature2-text guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac
-      icon: plug-cloud
-    - title: Feature3 title
-      text: Feature3-text guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac
+    - title: Operational
+      text: Look for evidence that the application you're about to deploy meets your organizations policies.
+            Track if all binaries in production trace back to a securely managed repository.
+    - title: Reactive
+      text: Find which parts of your organization's inventory are affected by a new vulnerability.
+            Track a suspivious project lifecycle event back to the risk that was introduced into your organization.
+            Learn how an open source project deprecation affects you.
       icon: doc-sync
+
+
+
+    sectionGithub:
+    title: A collaboration between
+    subtitle: Citi, Google,  Kusari, Purdue University 
+
 
 
   sectionGithub:
@@ -157,13 +170,6 @@ params:
     button1Link: https://github.com/guacsec/guac
     button2Text: FAQ
     button2Link: /faq
-
-  sectionUniid:
-    title: GUAC chips today
-    subtitle: section-uniid-demo demo demo our guac guac today....  guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac
-    buttonText: Check out our demos
-    buttonLink: "https://github.com/guacsec/guac"
-
 
   section4:
     title: Our Clients love us!
